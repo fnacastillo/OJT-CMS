@@ -1,0 +1,16 @@
+.image-container {
+    text-align: center; /* Align images to the right */
+    display: inline-block; /* Ensure images and content are positioned inline */
+    vertical-align: top; /* Align elements to the top */
+    margin-bottom: 20px; /* Add margin between images and content */
+}
+
+.contents {
+    font-family: 'Quicksand', sans-serif;
+    font-size: xx-large;
+    text-align: left; /* Align text content to the left */
+    padding: 20px; /* Add padding to the content */
+    display: inline-block; /* Ensure images and content are positioned inline */
+    vertical-align: top; /* Align elements to the top */
+    margin-bottom: 20px; /* Add margin between images and content */
+}

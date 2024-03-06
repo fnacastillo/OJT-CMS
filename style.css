@@ -1,0 +1,108 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(homepage.png), linear-gradient(rgba(0,0,50,0.8),rgba(0,0,50,0.8));
+    background-position: center;
+    background-size: cover;
+    font-family: 'quicksand', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    background-image: url(homepage.png), linear-gradient(rgba(0,0,50,0.8),rgba(0,0,50,0.8));
+    background-position: center;
+    background-size: cover;
+    position: relative;
+display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+
+}
+
+
+.form-box h1{
+font-size: 30px;
+margin-bottom: 60px;
+color: #A45D83;
+position: relative;
+
+}
+
+.form-box h1::after{
+content:' ';
+width: 30px;
+height: 4px;
+border-radius: 3px;
+background:#A45D83;
+position: absolute;
+bottom: -12px;
+left: 50%;
+transform: translateX(-50%);
+}
+
+.input-field {
+    background: #F6E8D8;
+    margin: 15px 0;
+    border-radius: 0px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+    position: relative; /* Add position relative */
+}
+
+.input-field button {
+    margin-left: 15px; /* Move the button to the left */
+    color: #999;
+}
+
+form p { /*forgot pass*/
+    text-align: left;
+    font-size: 15px;
+    margin-top: 0px; /* Add margin-top */
+}
+
+.form-box { /*input boxes*/
+    width: 100%;
+    max-width: 450px;
+    padding: 0; /* Adjust bottom padding */
+    text-align: center;
+    margin: 0;
+}
+
+input{
+    width:100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 27px 20px;
+    }
+.btn-field{
+width:100%;
+display: flex;
+justify-content: space-between;
+}
+
+.btn-field button{
+flex-basis:48%;
+background: #A45D83;
+color: #000;
+height: 40px;
+border-radius: 20px;
+border: 0;
+outline: 0;
+cursor: pointer;
+transition: background 1s;
+}
+
+.input-group{  
+height: 280px;
+}
+
+.btn-field button.disable{
+background: #eaeaea;
+color: #555
+}
